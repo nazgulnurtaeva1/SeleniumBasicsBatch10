@@ -10,7 +10,7 @@ public class LocatingElements {
         WebDriver driver=new ChromeDriver();
         driver.get("https://fb.com");
         driver.findElement(By.id("email")).sendKeys("nazgulnurtaeva1@gmail.com");
-driver.findElement(By.id("pass")).sendKeys("Farabi081520!");
+driver.findElement(By.id("pass")).sendKeys("Fara08");
 driver.findElement(By.name("login")).click();
 Thread.sleep(2000);
 //driver.findElement(By.linkText("Forgot Password?")).click();
