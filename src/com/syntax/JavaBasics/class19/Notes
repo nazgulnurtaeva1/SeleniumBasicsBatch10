@@ -1,0 +1,7 @@
+Constructors:
+  Is a special block of code that helps us built/initialize(give initial value ... our objects.
+  When we write new className(); the code inside the no argument
+  constructor is executed.
+  When we do not provide a constructor a default no argument constructor is provided by compiler.
+  If we have multiple constructors, java will check the number of arguments and type of arguments
+  to decide which constructor to execute.

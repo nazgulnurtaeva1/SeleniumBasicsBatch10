@@ -1,4 +1,4 @@
-package com.syntax.class02;
+package com.syntax.Selenium.class02;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -17,16 +17,16 @@ public class HWTask01 {
         driver.findElement(By.id("customer.address.state")).sendKeys("Fl");
         driver.findElement(By.id("customer.address.zipCode")).sendKeys("32707");
         driver.findElement(By.id("customer.phoneNumber")).sendKeys(" P9992889398");
-driver.findElement(By.id("customer.ssn")).sendKeys("272736456");
-driver.findElement(By.id("customer.username")).sendKeys("naz2711");
-driver.findElement(By.id("customer.password")).sendKeys("Farabi0815");
-driver.findElement(By.id("repeatedPassword")).sendKeys("Farabi0815");
-driver.findElement(By.className("button")).click();
-Thread.sleep(4000);
-driver.findElement(By.name("username")).sendKeys("naz2711");
-driver.findElement(By.name("password")).sendKeys("Farabi0815");
-driver.findElement(By.className("button")).click();
-Thread.sleep(4000);
-driver.quit();
+        driver.findElement(By.id("customer.ssn")).sendKeys("272736456");
+        driver.findElement(By.id("customer.username")).sendKeys("naz2711");
+        driver.findElement(By.id("customer.password")).sendKeys("Farabi0815");
+        driver.findElement(By.id("repeatedPassword")).sendKeys("Farabi0815");
+        driver.findElement(By.className("button")).click();
+        Thread.sleep(4000);
+        driver.findElement(By.name("username")).sendKeys("naz2711");
+        driver.findElement(By.name("password")).sendKeys("Farabi0815");
+        driver.findElement(By.className("button")).click();
+        Thread.sleep(4000);
+        driver.quit();
     }
 }

@@ -1,0 +1,38 @@
+
+Access modifiers:
+Keywords that determine the access of members(fields/methods/constractors and class)
+ Access Mod. has 4 access levels and 3 keywords:
+ 1) private ====> We can only access that member inside that same class only.
+ 2) default
+ 3) protected
+ 4) public
+
+
+
+Note:
+ 1) we can not have two public classes inside a .java file
+  2) there should be a public class with same name as of your
+   file otherwise u will get an error(only in Java!   Python, C# doesn't have it)
+  3) we can have many classes inside a .java file but only one public class
+
+=======================================================================================
+Constructors
+   Constructors are special block of code executed when we create the object of a class
+    by writing new keyword and name of class with parenthesis.
+We mainly use constructor to initialize the fields of an object, but we can also put some
+ code that we want to execute everytime someone is creating the object of that class.
+Rules:
+1) No return type not even void
+2. same name as class name
+3. we can have constructors with and without parameters
+4. Constructors don't participate in inheritance
+5. Constructors are automatically called when you create the object.
+6. We can overload cons.
+7. We can not use non access modifiers like static with constructors
+8. we can not override a constructors because yhey don't participate in inheritance
+9. if we are not creating a cons., java creates default zero argument constructor automatically.
+
+
+
+ ANGULAR is the framework. Built using Java Script and Typed Script.
+ Collection of classes and methods to solve our problems in a easier way.

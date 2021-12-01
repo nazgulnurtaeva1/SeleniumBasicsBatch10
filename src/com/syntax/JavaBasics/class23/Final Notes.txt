@@ -1,0 +1,47 @@
+A final keyword in java can be used with a class,
+with a variable and with a method.
+● final keyword restricts the further modification.
+● When we use final keyword with an entity (class
+or variable or method), it gets the meaning that
+entity is complete and can not be modified
+further.
+● final is a non access modifier
+
+We can’t create a subclass to the final class or we
+can’t extend a class or we can’t modify a class
+which is declared as final.
+final class FinalClass {
+    //some statements
+}
+
+class SubClass extends FinalClass {
+    //compile time error
+    //Can't create sub class to the final class
+}
+Final method
+We can’t override a method or we can’t modify a
+method in the sub class which is declared as final
+in the super class.
+class SuperClass {
+    final void methodOne() {
+        //some statements
+    }
+}
+
+class SubClass extends SuperClass {
+    @Override
+    void methodOne() {
+        //Compile time error
+        //can not override final method
+    }
+}
+Final variable
+The value of a final variable can not be changed
+once it got initialized.
+class AnyClass {
+    final int i = 10;
+
+    void methodOne() {
+        i = 20;     //compile time error
+        //final field cannot be re-assigned
+    }

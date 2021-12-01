@@ -1,0 +1,16 @@
+Review with Assel 11/22/2021
+To define variable we need:
+
+OPTIONAL       OPTIONAL                 MUST           MUST
+access mod    non access modifier    dataType         name
+
+To define a method we need:
+
+OPTIONAL          OPTIONAL            MUST           MUST
+access mod      non access mod       return type    name()
+
+Access Modifier --> we can use for methods, class, constr, variable
+
+public ---> protected ---> default---> private
+
+
